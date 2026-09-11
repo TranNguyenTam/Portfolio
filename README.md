@@ -6,6 +6,8 @@ A technical portfolio website engineered to showcase commercial software enginee
 
 ## 1. Technical Positioning & Core Evidence
 
+- **Production URL:** [https://portfolio-trannguyentam.vercel.app/](https://portfolio-trannguyentam.vercel.app/)
+- **Repository:** [https://github.com/TranNguyenTam/Portfolio](https://github.com/TranNguyenTam/Portfolio)
 - **Positioning:** Junior Backend Developer with commercial experience in public health information systems, relational data, transactions, and REST APIs.
 - **Primary Source of Truth:** `Tran_Nguyen_Tam_Junior_Backend_CV.pdf` (located in `/public`).
 - **Commercial Experience:** **KCL Group** (12/2025 – 09/2026, Da Nang, Vietnam) — Public health information systems (Python/FastAPI, SQL Server).
@@ -35,8 +37,12 @@ portfolio/
 ├── src/
 │   ├── app/
 │   │   ├── globals.css                              # Tailwind v4 configuration & theme
-│   │   ├── layout.tsx                               # Root layout with SEO & OpenGraph
+│   │   ├── icon.svg                                 # Vector developer favicon
+│   │   ├── layout.tsx                               # Root layout with SEO & JSON-LD
+│   │   ├── opengraph-image.tsx                      # Dynamic Open Graph image generation
 │   │   ├── page.tsx                                 # Portfolio homepage
+│   │   ├── robots.ts                                # Search engine crawling directives
+│   │   ├── sitemap.ts                               # Dynamic XML sitemap generator
 │   │   └── projects/
 │   │       ├── pbl6/page.tsx                        # PBL6 deep-dive case study
 │   │       └── qms/page.tsx                         # QMS deep-dive case study

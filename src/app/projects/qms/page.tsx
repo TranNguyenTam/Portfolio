@@ -8,6 +8,23 @@ export const metadata: Metadata = {
   title: "QMS Hospital Queue System — Backend Case Study | Trần Nguyên Tâm",
   description:
     "Technical case study of QMS Hospital Queue Management System: Clean Architecture in .NET 10, atomic ticket calling via SQL Stored Procedures, Dapper micro-ORM, SignalR realtime notifications, and AES-256-GCM biometric vector encryption.",
+  alternates: {
+    canonical: "/projects/qms",
+  },
+  openGraph: {
+    type: "article",
+    url: "https://portfolio-trannguyentam.vercel.app/projects/qms",
+    title: "QMS Hospital Queue System — Backend Case Study | Trần Nguyên Tâm",
+    description:
+      "Technical case study of QMS Hospital Queue Management System: Clean Architecture in .NET 10, atomic ticket calling via SQL Stored Procedures, Dapper micro-ORM, SignalR realtime notifications, and AES-256-GCM biometric vector encryption.",
+    siteName: "Trần Nguyên Tâm Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "QMS Hospital Queue System — Backend Case Study | Trần Nguyên Tâm",
+    description:
+      "Technical case study of QMS Hospital Queue Management System: Clean Architecture in .NET 10, atomic ticket calling via SQL Stored Procedures, Dapper micro-ORM, SignalR realtime notifications, and AES-256-GCM biometric vector encryption.",
+  },
 };
 
 export default function QmsCaseStudyPage() {

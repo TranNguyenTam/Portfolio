@@ -8,6 +8,23 @@ export const metadata: Metadata = {
   title: "PBL6 Pharmacy System — Backend Case Study | Trần Nguyên Tâm",
   description:
     "Technical case study of PBL6 Pharmacy System: Domain-oriented Modular Monolith, PostgreSQL transactions, 15-minute inventory reservation, and OTP authentication.",
+  alternates: {
+    canonical: "/projects/pbl6",
+  },
+  openGraph: {
+    type: "article",
+    url: "https://portfolio-trannguyentam.vercel.app/projects/pbl6",
+    title: "PBL6 Pharmacy System — Backend Case Study | Trần Nguyên Tâm",
+    description:
+      "Technical case study of PBL6 Pharmacy System: Domain-oriented Modular Monolith, PostgreSQL transactions, 15-minute inventory reservation, and OTP authentication.",
+    siteName: "Trần Nguyên Tâm Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PBL6 Pharmacy System — Backend Case Study | Trần Nguyên Tâm",
+    description:
+      "Technical case study of PBL6 Pharmacy System: Domain-oriented Modular Monolith, PostgreSQL transactions, 15-minute inventory reservation, and OTP authentication.",
+  },
 };
 
 export default function Pbl6CaseStudyPage() {
