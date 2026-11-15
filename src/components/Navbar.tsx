@@ -68,7 +68,7 @@ export default function Navbar() {
             GitHub
           </a>
           <a
-            href="/Tran_Nguyen_Tam_Junior_Backend_CV.pdf"
+            href="/Tran_Nguyen_Tam_Backend_Developer_CV.pdf"
             download
             className="flex items-center gap-1.5 rounded bg-blue-600 px-3 py-1.5 text-xs font-semibold text-white shadow-sm hover:bg-blue-500 transition-all"
           >
@@ -147,7 +147,7 @@ export default function Navbar() {
                 GitHub Profile
               </a>
               <a
-                href="/Tran_Nguyen_Tam_Junior_Backend_CV.pdf"
+                href="/Tran_Nguyen_Tam_Backend_Developer_CV.pdf"
                 download
                 className="flex items-center justify-center gap-2 rounded bg-blue-600 py-2 text-xs font-semibold text-white"
               >

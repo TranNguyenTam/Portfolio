@@ -10,7 +10,7 @@ export default function Footer() {
             {profileData.name}
           </div>
           <div className="text-xs text-slate-500 font-mono mt-0.5">
-            Junior Backend Developer • Da Nang, Vietnam
+            Backend Developer • Da Nang, Vietnam
           </div>
         </div>
 
@@ -34,7 +34,7 @@ export default function Footer() {
             </a>
             <span>•</span>
             <a
-              href="/Tran_Nguyen_Tam_Junior_Backend_CV.pdf"
+              href="/Tran_Nguyen_Tam_Backend_Developer_CV.pdf"
               download
               className="hover:text-blue-400 transition-colors"
             >

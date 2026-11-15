@@ -27,7 +27,7 @@ export default function Contact() {
             Let&apos;s build reliable backend systems.
           </h2>
           <p className="mt-4 text-base text-slate-300 leading-relaxed">
-            Open to Junior Backend Developer positions where I can contribute to transactional business workflows, relational database engineering, and reliable API services. Based in Da Nang, Vietnam, with openness to remote or on-site engineering roles.
+            Open to Backend Developer positions where I can contribute to transactional business workflows, relational database engineering, and reliable API services. Based in Da Nang, Vietnam, with openness to remote or on-site engineering roles.
           </p>
 
           {/* Action CTAs */}
@@ -51,7 +51,7 @@ export default function Contact() {
             </button>
 
             <a
-              href="/Tran_Nguyen_Tam_Junior_Backend_CV.pdf"
+              href="/Tran_Nguyen_Tam_Backend_Developer_CV.pdf"
               download
               className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-800 bg-slate-950 px-4 py-2.5 text-xs font-medium text-slate-300 hover:border-slate-700 hover:text-white transition-colors"
             >

@@ -19,14 +19,14 @@ export interface Profile {
 
 export const profileData: Profile = {
   name: "TRẦN NGUYÊN TÂM",
-  title: "JUNIOR BACKEND DEVELOPER",
+  title: "BACKEND DEVELOPER",
   location: "Da Nang, Vietnam",
   phone: "0375053769",
   email: "trannguyentam.dev@gmail.com",
   github: "github.com/TranNguyenTam",
   githubUrl: "https://github.com/TranNguyenTam",
   summary:
-    "Backend-focused Developer with commercial experience building and maintaining public health information systems, alongside hands-on project experience across .NET, Python, Node.js, and SQL databases. Strongest areas include complex business logic, REST APIs, relational data, transactions, concurrency, authentication/authorization, and production debugging. Seeking a Junior Backend Developer role to deepen backend engineering and system design skills.",
+    "Backend Developer with about one year of commercial experience building healthcare information systems in Python (FastAPI, Flask) and SQL Server. Primary developer of an ISO/IEC 17025 testing-laboratory workflow and a land-border health quarantine module, and a main contributor to hospital patient-queue coordination — owning schema design, REST APIs, role-based access, billing, digital signing and automated tests.",
   education: {
     institution: "The University of Danang — University of Science and Technology",
     degree: "Bachelor of Information Technology",

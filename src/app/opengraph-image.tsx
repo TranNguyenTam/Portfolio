@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Trần Nguyên Tâm — Junior Backend Developer";
+export const alt = "Trần Nguyên Tâm — Backend Developer";
 export const size = {
   width: 1200,
   height: 630,
@@ -64,7 +64,7 @@ export default function Image() {
               color: "#93c5fd",
             }}
           >
-            Junior Backend Developer
+            Backend Developer
           </div>
           <p
             style={{

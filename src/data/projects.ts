@@ -44,7 +44,7 @@ export const projectsData: ProjectItem[] = [
     id: "pbl6",
     title: "PBL6 — Pharmacy Management & E-commerce System",
     subtitle: "Backend RESTful API for multi-branch retail pharmacy and online ordering",
-    role: "Backend Developer / Core Contributor",
+    role: "Primary Backend Contributor (about two-thirds of commits)",
     techStack: ["Node.js", "Express.js", "PostgreSQL", "Prisma ORM", "Azure App Service", "GitHub Actions"],
     architecture: "Domain-oriented Modular Monolith",
     githubUrl: "https://github.com/PBL6-Pharmacy-System/Back-End-Web",
@@ -193,6 +193,7 @@ export const projectsData: ProjectItem[] = [
       "Built realtime notifications with SignalR and managed active connections with an in-memory device registry.",
       "Implemented AES-256-GCM authenticated encryption for sensitive biometric vector storage, BCrypt for passwords, and scope-based authorization across hierarchical healthcare facilities.",
       "Built a thread-safe in-memory vector cache with atomic reference swapping and version-based invalidation, with an empirical fallback path for wait-time estimation.",
+      "Added two Python FastAPI services (face recognition and a scikit-learn/XGBoost wait-time predictor) and packaged the system as four Docker Compose services behind nginx.",
     ],
     keyDecisions: [
       {

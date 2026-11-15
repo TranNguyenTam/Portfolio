@@ -17,6 +17,8 @@ export const skillsData: SkillCategory[] = [
       "Authentication & Authorization",
       "RBAC",
       "Validation & Error Handling",
+      "Idempotent Imports",
+      "Excel / Word / PDF Generation",
     ],
   },
   {
@@ -47,8 +49,8 @@ export const skillsData: SkillCategory[] = [
     description: "Runtimes, typed languages, and server-side application frameworks",
     isPrimary: false,
     skills: [
+      "Python (FastAPI, Flask, Pydantic, pyodbc)",
       "C# (.NET 10 / ASP.NET Core)",
-      "Python (FastAPI)",
       "TypeScript / JavaScript (Node.js)",
       "SQL (T-SQL, PL/pgSQL)",
     ],
@@ -59,8 +61,10 @@ export const skillsData: SkillCategory[] = [
     isPrimary: false,
     skills: [
       "Git & GitHub",
+      "Docker & Docker Compose",
       "GitHub Actions (CI/CD)",
       "Azure App Service",
+      "pytest / unittest / Playwright",
       "Postman / REST Client",
     ],
   },

@@ -20,7 +20,7 @@ export default function Hero() {
           {/* Small role label */}
           <div className="inline-flex items-center gap-2 font-mono text-xs font-semibold tracking-wider text-blue-400 uppercase mb-4">
             <span className="h-1.5 w-1.5 rounded-full bg-blue-400" />
-            <span>Junior Backend Developer</span>
+            <span>Backend Developer</span>
           </div>
 
           {/* Large Name */}
@@ -30,7 +30,7 @@ export default function Hero() {
 
           {/* Short, powerful positioning statement */}
           <p className="mt-5 text-lg leading-relaxed text-slate-300 sm:text-xl font-normal">
-            Backend-focused developer with commercial experience building public health information systems, alongside hands-on engineering across .NET, Python, Node.js, and relational databases.
+            Backend developer with about one year of commercial experience building healthcare information systems in Python (FastAPI, Flask) and SQL Server, plus .NET and Node.js backends in academic projects.
           </p>
 
           {/* Compact engineering signal row (lightweight inline badges, not large boxed cards) */}
@@ -41,7 +41,7 @@ export default function Hero() {
             </span>
             <span className="text-slate-600 hidden sm:inline">•</span>
             <span className="rounded-md bg-slate-900 border border-slate-800 px-2.5 py-1 text-slate-300">
-              .NET 10 / Python / Node.js
+              Python (FastAPI) / .NET / Node.js
             </span>
             <span className="text-slate-600 hidden sm:inline">•</span>
             <span className="rounded-md bg-slate-900 border border-slate-800 px-2.5 py-1 text-slate-300">
@@ -82,7 +82,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/Tran_Nguyen_Tam_Junior_Backend_CV.pdf"
+              href="/Tran_Nguyen_Tam_Backend_Developer_CV.pdf"
               download
               className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-800 bg-slate-950 px-4 py-2.5 text-xs font-medium text-slate-300 hover:border-slate-700 hover:text-white transition-colors"
             >

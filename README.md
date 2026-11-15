@@ -1,4 +1,4 @@
-# Trần Nguyên Tâm — Junior Backend Developer Portfolio
+# Trần Nguyên Tâm — Backend Developer Portfolio
 
 A technical portfolio website engineered to showcase commercial software engineering experience, database transactions, concurrency control, system architecture, and verifiable backend contributions.
 
@@ -8,9 +8,9 @@ A technical portfolio website engineered to showcase commercial software enginee
 
 - **Production URL:** [https://portfolio-trannguyentam.vercel.app/](https://portfolio-trannguyentam.vercel.app/)
 - **Repository:** [https://github.com/TranNguyenTam/Portfolio](https://github.com/TranNguyenTam/Portfolio)
-- **Positioning:** Junior Backend Developer with commercial experience in public health information systems, relational data, transactions, and REST APIs.
-- **Primary Source of Truth:** `Tran_Nguyen_Tam_Junior_Backend_CV.pdf` (located in `/public`).
-- **Commercial Experience:** **KCL Group** (12/2025 – 09/2026, Da Nang, Vietnam) — Public health information systems (Python/FastAPI, SQL Server).
+- **Positioning:** Backend Developer with commercial experience in public health information systems, relational data, transactions, and REST APIs.
+- **Primary Source of Truth:** `Tran_Nguyen_Tam_Backend_Developer_CV.pdf` (located in `/public`).
+- **Commercial Experience:** **KCL Group** (12/2025 – Present, Da Nang, Vietnam) — Public health information systems (Python/FastAPI, SQL Server).
 - **Core Projects:**
   - **PBL6 Pharmacy Management System:** Domain-oriented Modular Monolith (`https://github.com/PBL6-Pharmacy-System/Back-End-Web`).
   - **QMS Hospital Queue System:** Clean Architecture in .NET 10 (`https://github.com/TranNguyenTam/hospital-queue-management-system`).
@@ -33,7 +33,7 @@ A technical portfolio website engineered to showcase commercial software enginee
 ```text
 portfolio/
 ├── public/
-│   └── Tran_Nguyen_Tam_Junior_Backend_CV.pdf        # Verified CV PDF source of truth
+│   └── Tran_Nguyen_Tam_Backend_Developer_CV.pdf        # Verified CV PDF source of truth
 ├── src/
 │   ├── app/
 │   │   ├── globals.css                              # Tailwind v4 configuration & theme

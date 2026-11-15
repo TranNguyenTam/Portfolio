@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
-  title: "Trần Nguyên Tâm — Junior Backend Developer",
+  title: "Trần Nguyên Tâm — Backend Developer",
   description:
-    "Junior Backend Developer with commercial healthcare software experience. Hands-on expertise with .NET 10, Python (FastAPI), Node.js, SQL Server, PostgreSQL, database transactions, concurrency, and Clean Architecture.",
+    "Backend Developer with commercial healthcare software experience. Hands-on expertise with Python (FastAPI), SQL Server, .NET 10, Node.js, PostgreSQL, database transactions, concurrency, and Clean Architecture.",
   keywords: [
     "Trần Nguyên Tâm",
-    "Junior Backend Developer",
+    "Backend Developer",
     "Backend Developer Da Nang",
     ".NET Developer",
     "FastAPI",
@@ -38,16 +38,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://portfolio-trannguyentam.vercel.app",
-    title: "Trần Nguyên Tâm — Junior Backend Developer",
+    title: "Trần Nguyên Tâm — Backend Developer",
     description:
-      "Junior Backend Developer with commercial experience in public health information systems, relational data, transactions, and REST APIs across .NET, Python, and Node.js.",
+      "Backend Developer with commercial experience in public health information systems, relational data, transactions, and REST APIs across .NET, Python, and Node.js.",
     siteName: "Trần Nguyên Tâm Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Trần Nguyên Tâm — Junior Backend Developer",
+    title: "Trần Nguyên Tâm — Backend Developer",
     description:
-      "Junior Backend Developer with commercial experience in public health information systems, relational data, transactions, and REST APIs.",
+      "Backend Developer with commercial experience in public health information systems, relational data, transactions, and REST APIs.",
   },
   robots: {
     index: true,
@@ -59,7 +59,7 @@ const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Trần Nguyên Tâm",
-  jobTitle: "Junior Backend Developer",
+  jobTitle: "Backend Developer",
   url: "https://portfolio-trannguyentam.vercel.app/",
   sameAs: ["https://github.com/TranNguyenTam"],
   address: {

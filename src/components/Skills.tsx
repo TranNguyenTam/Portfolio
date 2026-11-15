@@ -153,10 +153,10 @@ export default function Skills() {
             </span>
             <div className="flex flex-wrap items-center gap-2 font-mono text-xs text-slate-200">
               <span className="rounded bg-slate-900 border border-slate-800 px-3 py-1.5">
-                C# (.NET 10 / ASP.NET Core)
+                Python (FastAPI, Flask)
               </span>
               <span className="rounded bg-slate-900 border border-slate-800 px-3 py-1.5">
-                Python (FastAPI)
+                C# (.NET 10 / ASP.NET Core)
               </span>
               <span className="rounded bg-slate-900 border border-slate-800 px-3 py-1.5">
                 TypeScript / JavaScript (Node.js)
@@ -176,7 +176,13 @@ export default function Skills() {
                 Git & GitHub
               </span>
               <span className="rounded bg-slate-900 border border-slate-800 px-3 py-1.5">
+                Docker & Docker Compose
+              </span>
+              <span className="rounded bg-slate-900 border border-slate-800 px-3 py-1.5">
                 GitHub Actions (CI/CD)
+              </span>
+              <span className="rounded bg-slate-900 border border-slate-800 px-3 py-1.5">
+                pytest / Playwright
               </span>
               <span className="rounded bg-slate-900 border border-slate-800 px-3 py-1.5">
                 Azure App Service

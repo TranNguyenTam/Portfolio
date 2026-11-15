@@ -16,7 +16,7 @@ export default function Experience() {
             Production Software Engineering
           </h2>
           <p className="mt-3 text-base text-slate-300">
-            Commercial hands-on experience working in an agile engineering team on live enterprise healthcare software.
+            Primary developer of an ISO/IEC 17025 testing-laboratory workflow and land-border health quarantine, and a main contributor to hospital patient-queue coordination.
           </p>
         </div>
 
@@ -53,46 +53,22 @@ export default function Experience() {
           <div className="mt-4 rounded-lg border border-slate-800 bg-slate-900/40 p-4 text-xs text-slate-300">
             <span className="font-mono text-slate-400 font-semibold uppercase tracking-wider block mb-1">Domain & Context</span>
             <p className="text-sm leading-relaxed text-slate-300">
-              {exp.context}. Contributed to live backend services, relational data operations, and clinical workflows in an agile team of approximately 5 developers and 3 business analysts.
+              {exp.context}. Client names, source code and screenshots are omitted because the systems are proprietary.
             </p>
           </div>
 
           {/* Key Contributions with Visual Emphasis */}
           <div className="mt-6 space-y-3">
             <h4 className="font-mono text-xs uppercase tracking-wider text-slate-400">
-              Key Responsibilities & Production Work:
+              What I built:
             </h4>
             <ul className="space-y-2.5 text-sm text-slate-300 leading-relaxed">
-              <li className="flex items-start gap-3">
-                <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-400" />
-                <span>
-                  Developed and maintained public health information systems using <strong className="font-semibold text-slate-100">Python (FastAPI)</strong> and <strong className="font-semibold text-slate-100">SQL Server</strong> for healthcare organizations and medical facilities.
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-400" />
-                <span>
-                  Built <strong className="font-semibold text-slate-100">REST APIs</strong>, database operations, <strong className="font-semibold text-slate-100">authentication & authorization</strong>, and business workflows across multiple application modules.
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-400" />
-                <span>
-                  Implemented fullstack features involving data validation, reporting, data aggregation, and document generation.
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-400" />
-                <span>
-                  Investigated and resolved <strong className="font-semibold text-slate-100">production issues</strong> across backend services, database operations, and data-processing workflows.
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-400" />
-                <span>
-                  Collaborated with a cross-functional team of approximately 5 developers and 3 business analysts using <strong className="font-semibold text-slate-100">Git-based</strong> development workflows.
-                </span>
-              </li>
+              {exp.bulletPoints.map((point) => (
+                <li key={point} className="flex items-start gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-400" />
+                  <span>{point}</span>
+                </li>
+              ))}
             </ul>
           </div>
 
