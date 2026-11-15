@@ -185,6 +185,9 @@ export default function Skills() {
                 pytest / Playwright
               </span>
               <span className="rounded bg-slate-900 border border-slate-800 px-3 py-1.5">
+                AI-assisted development (Claude Code, Codex)
+              </span>
+              <span className="rounded bg-slate-900 border border-slate-800 px-3 py-1.5">
                 Azure App Service
               </span>
               <span className="rounded bg-slate-900 border border-slate-800 px-3 py-1.5">

@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Trần Nguyên Tâm — Backend Developer";
+export const alt = "Tran Nguyen Tam — Backend Developer";
 export const size = {
   width: 1200,
   height: 630,
@@ -55,7 +55,7 @@ export default function Image() {
               margin: 0,
             }}
           >
-            Trần Nguyên Tâm
+            Tran Nguyen Tam
           </h1>
           <div
             style={{

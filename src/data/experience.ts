@@ -21,7 +21,7 @@ export const experienceData: ExperienceItem[] = [
     techStack: ["Python", "FastAPI", "Flask", "SQL Server", "pyodbc", "pytest", "Playwright", "openpyxl", "python-docx", "Git"],
     bulletPoints: [
       "Public-health platform (400+ commits): built the chemical and microbiological testing-laboratory module to ISO/IEC 17025 as its primary developer — sample reception, staff assignment, result entry, two-level approval, tariffs, payments and invoicing (140+ REST endpoints).",
-      "Kept concurrent edits consistent with row-level locking and versioned records; integrated remote digital signing of PDF lab reports inside serializable transactions.",
+      "Kept concurrent edits consistent with row-level locking and versioned records for staff assignments, tariffs and result reports.",
       "Developed the land-border health quarantine module (declarations, certificates, fee vouchers, invoices, statutory reports) and two-step Excel imports: dry-run preview, transactional commit, duplicate matching, idempotent inserts.",
       "Implemented three-tier reporting workflows (facility, commune health station, CDC) for water quality, school health and injury data with deadline auto-lock, reopen requests and Word/Excel exports; built non-communicable disease registers with DHIS2 and Excel imports.",
       "Wrote 60 SQL migrations and about 590 automated tests (pytest/unittest, Playwright) covering pricing concurrency, payment policy, permissions and import sessions.",

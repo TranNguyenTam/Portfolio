@@ -1,4 +1,4 @@
-# Trần Nguyên Tâm — Backend Developer Portfolio
+# Tran Nguyen Tam — Backend Developer Portfolio
 
 A technical portfolio website engineered to showcase commercial software engineering experience, database transactions, concurrency control, system architecture, and verifiable backend contributions.
 

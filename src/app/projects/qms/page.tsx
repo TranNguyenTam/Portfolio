@@ -5,7 +5,7 @@ import { projectsData } from "@/data/projects";
 import { QmsArchitectureDiagram } from "@/components/ArchitectureDiagram";
 
 export const metadata: Metadata = {
-  title: "QMS Hospital Queue System — Backend Case Study | Trần Nguyên Tâm",
+  title: "QMS Hospital Queue System — Backend Case Study | Tran Nguyen Tam",
   description:
     "Technical case study of QMS Hospital Queue Management System: Clean Architecture in .NET 10, atomic ticket calling via SQL Stored Procedures, Dapper micro-ORM, SignalR realtime notifications, and AES-256-GCM biometric vector encryption.",
   alternates: {
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "article",
     url: "https://portfolio-trannguyentam.vercel.app/projects/qms",
-    title: "QMS Hospital Queue System — Backend Case Study | Trần Nguyên Tâm",
+    title: "QMS Hospital Queue System — Backend Case Study | Tran Nguyen Tam",
     description:
       "Technical case study of QMS Hospital Queue Management System: Clean Architecture in .NET 10, atomic ticket calling via SQL Stored Procedures, Dapper micro-ORM, SignalR realtime notifications, and AES-256-GCM biometric vector encryption.",
-    siteName: "Trần Nguyên Tâm Portfolio",
+    siteName: "Tran Nguyen Tam Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "QMS Hospital Queue System — Backend Case Study | Trần Nguyên Tâm",
+    title: "QMS Hospital Queue System — Backend Case Study | Tran Nguyen Tam",
     description:
       "Technical case study of QMS Hospital Queue Management System: Clean Architecture in .NET 10, atomic ticket calling via SQL Stored Procedures, Dapper micro-ORM, SignalR realtime notifications, and AES-256-GCM biometric vector encryption.",
   },

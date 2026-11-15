@@ -65,6 +65,7 @@ export const skillsData: SkillCategory[] = [
       "GitHub Actions (CI/CD)",
       "Azure App Service",
       "pytest / unittest / Playwright",
+      "AI-assisted development (Claude Code, Codex)",
       "Postman / REST Client",
     ],
   },

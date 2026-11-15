@@ -17,11 +17,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
-  title: "Trần Nguyên Tâm — Backend Developer",
+  title: "Tran Nguyen Tam — Backend Developer",
   description:
     "Backend Developer with commercial healthcare software experience. Hands-on expertise with Python (FastAPI), SQL Server, .NET 10, Node.js, PostgreSQL, database transactions, concurrency, and Clean Architecture.",
   keywords: [
-    "Trần Nguyên Tâm",
+    "Tran Nguyen Tam",
     "Backend Developer",
     "Backend Developer Da Nang",
     ".NET Developer",
@@ -32,20 +32,20 @@ export const metadata: Metadata = {
     "Clean Architecture",
     "Modular Monolith",
   ],
-  authors: [{ name: "Trần Nguyên Tâm", url: "https://github.com/TranNguyenTam" }],
-  creator: "Trần Nguyên Tâm",
+  authors: [{ name: "Tran Nguyen Tam", url: "https://github.com/TranNguyenTam" }],
+  creator: "Tran Nguyen Tam",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://portfolio-trannguyentam.vercel.app",
-    title: "Trần Nguyên Tâm — Backend Developer",
+    title: "Tran Nguyen Tam — Backend Developer",
     description:
       "Backend Developer with commercial experience in public health information systems, relational data, transactions, and REST APIs across .NET, Python, and Node.js.",
-    siteName: "Trần Nguyên Tâm Portfolio",
+    siteName: "Tran Nguyen Tam Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Trần Nguyên Tâm — Backend Developer",
+    title: "Tran Nguyen Tam — Backend Developer",
     description:
       "Backend Developer with commercial experience in public health information systems, relational data, transactions, and REST APIs.",
   },
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
 const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "Trần Nguyên Tâm",
+  name: "Tran Nguyen Tam",
   jobTitle: "Backend Developer",
   url: "https://portfolio-trannguyentam.vercel.app/",
   sameAs: ["https://github.com/TranNguyenTam"],
